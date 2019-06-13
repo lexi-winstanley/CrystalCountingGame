@@ -5,11 +5,11 @@
         <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="pageContent">
+        <div class="borderedContent">
             <header>
                 <h1>Crystals Collector Game</h1>
             </header>
-            <main>
+            <div class="backgroundWhite">
                 <div class="gameContainer">
                     <div class="gameLeft">
                         <div class="instructions">
@@ -45,11 +45,16 @@
                         </div>
                     </div>
                 </div>
-            </main>
-            <footer>
-                <p class="footerText">Created by Lexi Winstanley</p>
-                <p class="paddingNone">June 2019</p>
-            </footer>
+            </div>
+            <div class="userStats">
+                <p class="userStatsText">Wins: <span id="winsText">0</span></p>
+                <p class="userStatsText">Losses: <span id="lossesText">0</span></p>
+            </div>
         </div>
+        <footer>
+            <p class="footerText">Created by Lexi Winstanley</p>
+            <p class="paddingNone">June 2019</p>
+        </footer>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>
 </html>
