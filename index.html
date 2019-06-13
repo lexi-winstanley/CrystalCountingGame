@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="pageContent">
+            <header>
+                <h1>Crystals Collector Game</h1>
+            </header>
+            <main>
+                <div class="gameContainer">
+                    <div class="gameLeft">
+                        <div class="instructions">
+                            <p class="instructionsText">You have been given a random target score to obtain.</p>
+                            <p class="instructionsText">Each of the four crystals have been assigned a random point value, this value will change with each game reset and will not be displayed to you.
+                                Whenever a crystal is clicked its value will be added to your total score. </p>
+                            <p class="instructionsText">Your goal is to click on crystals in such a way that your total score matches the target score.
+                                If your total score goes the over target score the game is over and you have lost.</p>
+                        </div>
+                        <div class="crystalsHolder">
+                            <div class="crystal">
+                                <img class="crystalGraphic" id="purpleCrystal" src="assets/images/purpleCrystal.svg" alt="purple crystal graphic">
+                            </div>
+                            <div class="crystal">
+                                <img class="crystalGraphic" id="greenCrystal" src="assets/images/greenCrystal.svg" alt="green crystal graphic">
+                            </div>
+                            <div class="crystal">
+                                <img class="crystalGraphic" id="redCrystal" src="assets/images/redCrystal.svg" alt="red crystal graphic">
+                            </div>
+                            <div class="crystal">
+                                <img class="crystalGraphic" id="blueCrystal" src="assets/images/blueCrystal.svg" alt="blue crystal graphic">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gameRight">
+                        <div id="targetTotal">
+                            <h2>Target Score:</h2>
+                            <div id="targetScore">100</div>
+                        </div>
+                        <div id="currentTotal">
+                            <h2>Current Score:</h2>
+                            <div id="currentScore">50</div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p class="footerText">Created by Lexi Winstanley</p>
+                <p class="paddingNone">June 2019</p>
+            </footer>
+        </div>
+    </body>
+</html>
