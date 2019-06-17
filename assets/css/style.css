@@ -22,6 +22,9 @@ body {
     border: solid black .2rem;
     border-radius: 2rem;
     background-color: rgb(234, 162, 4);
+}
+
+.stickyFooterWrapper {
     flex: 1;
 }
 
@@ -79,6 +82,10 @@ footer {
     padding: 1rem;
 }
 
+.crystalGraphic {
+    cursor: pointer;
+}
+
 .gameRight {
     flex: 1;
     display: flex;
@@ -86,6 +93,12 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.statMessageHolder {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
 }
 
 h1 {

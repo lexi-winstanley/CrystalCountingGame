@@ -1,11 +1,13 @@
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="borderedContent">
+        <div class="stickyFooterWrapper">
+            <div class="borderedContent">
             <header>
                 <h1>Crystals Collector Game</h1>
             </header>
@@ -15,8 +17,8 @@
                         <div class="instructions">
                             <p class="instructionsText">You have been given a random target score to obtain.</p>
                             <p class="instructionsText">Each of the four crystals have been assigned a random point value, this value will change with each game reset and will not be displayed to you.
-                                Whenever a crystal is clicked its value will be added to your total score. </p>
-                            <p class="instructionsText">Your goal is to click on crystals in such a way that your total score matches the target score.
+                                Whenever a crystal is clicked its value will be added to your current score. </p>
+                            <p class="instructionsText">Your goal is to click on crystals in such a way that your current score matches the target score; this will mean you have won.
                                 If your total score goes the over target score the game is over and you have lost.</p>
                         </div>
                         <div class="crystalsHolder">
@@ -44,12 +46,16 @@
                             <div id="currentScore">50</div>
                         </div>
                     </div>
+                    <div class="statMessageHolder">
+                        <p id="statMessage"></p>
+                    </div>
                 </div>
             </div>
             <div class="userStats">
                 <p class="userStatsText">Wins: <span id="winsText">0</span></p>
                 <p class="userStatsText">Losses: <span id="lossesText">0</span></p>
             </div>
+        </div>
         </div>
         <footer>
             <p class="footerText">Created by Lexi Winstanley</p>
