@@ -19,6 +19,7 @@ var currentScore = 0;
 var targetScore;
 
 
+
 //sets four random values 1-12 in an array which are then assigned to crystals
 function setCrystalValue() {
     var crystalValues = [];
@@ -63,6 +64,10 @@ setGame();
 
 $('.crystalGraphic').on('click', function(event) {
     event.preventDefault();
+    $('.gameLeft').addClass('hide');
+    $('.gameRight').addClass('noInstructions');
+    $('.targetTotal').addClass('rowLayout');
+    $('.currentTotal').addClass('rowLayout');
     $('#statMessage').text('');
     var newPoints = parseInt($(this).attr('data-crystalValue'));
     if ((currentScore + newPoints) < targetScore) {

@@ -1,9 +1,12 @@
 <html>
     <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/crystalFavicon_32-32.png">
     </head>
     <body>
         <div class="stickyFooterWrapper">
@@ -15,35 +18,36 @@
                 <div class="gameContainer">
                     <div class="gameLeft">
                         <div class="instructions">
-                            <p class="instructionsText">You have been given a random target score to obtain.</p>
-                            <p class="instructionsText">Each of the four crystals have been assigned a random point value, this value will change with each game reset and will not be displayed to you.
+                            <p class="paddingNone">You have been given a random target score to obtain.</p>
+                            <p>Each of the four crystals have been assigned a random point value, this value will change with each game reset and will not be displayed to you.
                                 Whenever a crystal is clicked its value will be added to your current score. </p>
-                            <p class="instructionsText">Your goal is to click on crystals in such a way that your current score matches the target score; this will mean you have won.
+                            <p>Your goal is to click on crystals in such a way that your current score matches the target score; this will mean you have won.
                                 If your total score goes the over target score the game is over and you have lost.</p>
                         </div>
-                        <div class="crystalsHolder">
-                            <div class="crystal">
-                                <img class="crystalGraphic" id="purpleCrystal" src="assets/images/purpleCrystal.svg" alt="purple crystal graphic">
-                            </div>
-                            <div class="crystal">
-                                <img class="crystalGraphic" id="greenCrystal" src="assets/images/greenCrystal.svg" alt="green crystal graphic">
-                            </div>
-                            <div class="crystal">
-                                <img class="crystalGraphic" id="redCrystal" src="assets/images/redCrystal.svg" alt="red crystal graphic">
-                            </div>
-                            <div class="crystal">
-                                <img class="crystalGraphic" id="blueCrystal" src="assets/images/blueCrystal.svg" alt="blue crystal graphic">
-                            </div>
-                        </div>
+
                     </div>
                     <div class="gameRight">
-                        <div id="targetTotal">
+                        <div class="targetTotal">
                             <h2>Target Score:</h2>
                             <div id="targetScore">100</div>
                         </div>
-                        <div id="currentTotal">
+                        <div class="currentTotal">
                             <h2>Current Score:</h2>
                             <div id="currentScore">50</div>
+                        </div>
+                    </div>
+                    <div class="crystalsHolder">
+                        <div class="crystal">
+                            <img class="crystalGraphic" id="purpleCrystal" src="assets/images/purpleCrystal.svg" alt="purple crystal graphic">
+                        </div>
+                        <div class="crystal">
+                            <img class="crystalGraphic" id="greenCrystal" src="assets/images/greenCrystal.svg" alt="green crystal graphic">
+                        </div>
+                        <div class="crystal">
+                            <img class="crystalGraphic" id="redCrystal" src="assets/images/redCrystal.svg" alt="red crystal graphic">
+                        </div>
+                        <div class="crystal">
+                            <img class="crystalGraphic" id="blueCrystal" src="assets/images/blueCrystal.svg" alt="blue crystal graphic">
                         </div>
                     </div>
                     <div class="statMessageHolder">
