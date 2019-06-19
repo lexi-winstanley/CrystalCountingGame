@@ -85,6 +85,12 @@ footer {
     width: 25%;
     padding: 1rem;
     text-align: center;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+.crystal:focus {
+    outline: none;
 }
 
 .crystalGraphic {
