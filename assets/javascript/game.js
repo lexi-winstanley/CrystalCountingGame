@@ -28,7 +28,7 @@ function setCrystalValue() {
         if (!crystalValues.includes(crystalNumber)) {
             crystalValues.push(crystalNumber);
         } else {
-            return;
+            continue;
         }
     }
     $('#purpleCrystal').attr('data-crystalValue', crystalValues[0]);

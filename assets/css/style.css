@@ -133,11 +133,14 @@ p {
 
 .targetTotal {
     background-color: rgba(234, 162, 4, .5);
-    width: 50%;
+    width: 60%;
     border: solid black .1rem;
     border-radius: 1rem;
-    padding: 1rem;
-    margin: 0 0 2rem 0;
+    padding: .5rem;
+    margin: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #targetScore {
@@ -149,10 +152,14 @@ p {
 
 .currentTotal {
     background-color: rgba(234, 162, 4, .5);
-    width: 50%;
+    width: 60%;
     border: solid black .1rem;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 2rem;
 }
 
 #currentScore {
@@ -173,7 +180,7 @@ p {
 
 .rowLayout {
     width: 30%;
-    padding: 1rem;
+    padding: .5rem;
     margin: 0;
     align-self: stretch;
 }
@@ -206,13 +213,13 @@ p {
     }
     .targetTotal {
         width: 30%;
-        padding: 1rem;
+        padding: .5rem;
         margin: 0;
         align-self: stretch;
     }
     .currentTotal {
         width: 30%;
-        padding: 1rem;
+        padding: .5rem;
         margin: 0;
         align-self: stretch;
     }
@@ -229,14 +236,14 @@ p {
 }
 
 @media screen and (max-width: 550px) {
-    .body {
+    body {
         font-size: 16px;
     }
     .targetTotal {
-        width: 40%;
+        width: 45%;
     }
     .currentTotal {
-        width: 40%;
+        width: 45%;
     }
     h2 {
         font-size: 1.25rem;
