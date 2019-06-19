@@ -35,10 +35,6 @@ function setCrystalValue() {
     $('#greenCrystal').attr('data-crystalValue', crystalValues[1]);
     $('#redCrystal').attr('data-crystalValue', crystalValues[2]);
     $('#blueCrystal').attr('data-crystalValue', crystalValues[3]);
-    console.log(crystalValues[0]);
-    console.log(crystalValues[1]);
-    console.log(crystalValues[2]);
-    console.log(crystalValues[3]);
 }
 
 //sets the target score to a random number between 19 and 120 and updates appropriate HTML
