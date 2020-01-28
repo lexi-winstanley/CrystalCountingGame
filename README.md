@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Counting Game
 
 ## Description
 This is a JavaScript game utilizing the jQuery library. At the start of the game a target score between 19-120 will be randomly generated. Each of the four crystals will also be assigned a random value 1-12. The crystal values will not be displayed to the player. 
