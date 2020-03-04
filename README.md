@@ -1,10 +1,20 @@
 # Crystal Counting Game
+[View Live](https://lexi-winstanley.github.io/crystalCountingGame/)
 
-## Description
-This is a JavaScript game utilizing the jQuery library. At the start of the game a target score between 19-120 will be randomly generated. Each of the four crystals will also be assigned a random value 1-12. The crystal values will not be displayed to the player. 
+## Motivation 
+To create a simple game utilizing jQuery in which the goal is to click the crystals, which have unknown values, in such a way that the sum equals the randomly generated target score. 
 
-Each time a crystal is clicked its value will be added to the current score. The object of the game is to click on the crystals in such a way that the sum of all the crystals clicked equals the target score; this will constitute a win for the player which will be displayed at the bottom of the page. If the current score goes over the target score the game ends and the player loses; the losses display at the bottom of the page will be incremented. 
+## Summary
+At the start of the game a target score will be randomly generated. Each of the four crystals will also be assigned a random value not displayed to the player. Each time a crystal is clicked its value will be added to the current score. The object of the game is to click on the crystals in such a way that the sum of all the crystals clicked equals the target score.
 
-Once the player wins or loses a new target score and crystal values will be generated.
+## Details
+This is a JavaScript game utilizing the jQuery library. On page load, a random target score is generated between 19 and 120 using Math.random(). Random values are generated betwen 1 and 12 for each of the crystals using the same method and added to an array to be assigned. The target score and current score are displayed to the player while the crystal values are not. Each time a crystal is clicked a function runs to add its secret value will be added to the current score. With this information a player can use logic to figure out the crystal values and successfully reach the target score--or they can click randomly and hope for the best! If, after a click, the current score equals the target score, the player has won and the wins displayed at the bottom of the page will be incremented. If the current score goes over the target score the player has lost and the losses displayed at the bottom of the page will be incremented. Once the player wins or loses a new target score and crystal values will be generated.
 
-## https://lexi-winstanley.github.io/CrystalCountingGame/
+## Role
+Sole developer responsible for design, code and creation of custom graphics. Functionality requirements provided by UW Coding Bootcamp/Trilogy Education Services.
+
+## Technologies
+HTML
+<br/>CSS
+<br/>JavaScript
+<br/>jQuery
