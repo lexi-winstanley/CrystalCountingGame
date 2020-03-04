@@ -11,7 +11,7 @@ At the start of the game a target score will be randomly generated. Each of the 
 This is a JavaScript game utilizing the jQuery library. On page load, a random target score is generated between 19 and 120 using Math.random(). Random values are generated betwen 1 and 12 for each of the crystals using the same method and added to an array to be assigned. The target score and current score are displayed to the player while the crystal values are not. Each time a crystal is clicked a function runs to add its secret value will be added to the current score. With this information a player can use logic to figure out the crystal values and successfully reach the target score--or they can click randomly and hope for the best! If, after a click, the current score equals the target score, the player has won and the wins displayed at the bottom of the page will be incremented. If the current score goes over the target score the player has lost and the losses displayed at the bottom of the page will be incremented. Once the player wins or loses a new target score and crystal values will be generated.
 
 ## Role
-Sole developer responsible for design, code and creation of custom graphics. Functionality requirements provided by UW Coding Bootcamp/Trilogy Education Services.
+Sole developer responsible for design, code and creation of custom graphics.
 
 ## Technologies
 HTML
